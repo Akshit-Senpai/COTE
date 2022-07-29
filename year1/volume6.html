@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>COTE LN</title>
+	<link href="../css/style.css" rel="stylesheet">
+	<link rel-'icon' href="../img/logo.jpg">
+	<script src="../js/script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body id="body" onload="init()">
+	<div class="wrapper">
+		<div class="item grid1">
+			<div><img class='logo-img' src="../img/logo.jpg"></div>
+		</div>
+		<div class="item grid2">
+			<div id="shade" style="display:none">
+			</div>
+			<iframe class="frame" src="https://heyzine.com/flip-book/5366ea8b8f.html">
+			</iframe>
+		</div>
+		<div class="item grid3">
+			<div class="toolbar">
+				<div class="brightness button" onclick="toggleShade()">
+					<ion-icon id="shadeIcon" name="sunny-outline"></ion-icon>
+				</div>
+				<div class="fullscreen button" onclick="toggleFullscreen()">
+					<ion-icon id='fullscreenIcon' name="scan-outline"></ion-icon>
+				</div>
+
+				<div class="home button" onclick="loadHome()">
+					<ion-icon name="home-outline"></ion-icon>
+				</div>
+			</div>
+			<div class="navbar">
+				<div class="previous button" onclick="loadPrevious()">
+					<ion-icon name="caret-back-outline"></ion-icon>
+				</div>
+				<div class="next button" onclick="loadNext()">
+					<ion-icon name="caret-forward-outline"></ion-icon>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+
+</html>

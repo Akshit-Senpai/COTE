@@ -1,0 +1,70 @@
+body {
+	background-color: #101010;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 7.5% 75% 17.5%;
+}
+.item {
+	align-items: center;
+	justify-content: center;
+}
+.grid2 {
+	display: flex;
+}
+.logo-img {
+	margin: 10%;
+	width: 75%;
+	height: 75%;
+	border-radius: 50%;
+	border: lightgray 2px solid;
+}
+#shade {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 7.5%;
+	right: 17.5%;
+	pointer-events: none;
+}
+.frame {
+	width: 99.5%;
+	height: 98%;
+	margin: 0;
+	padding: 0;
+}
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: #426199;
+	border-radius: 10px;
+}
+.toolbar {
+	margin-top: 175%;
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+}
+.navbar {
+	display: flex;
+	flex: 1;
+}
+.previous,
+.next {
+	width: 100%;
+}
+ion-icon {
+	color: #fff;
+	font-size: 2rem;
+}

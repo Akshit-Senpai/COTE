@@ -1,16 +1,55 @@
 body {
 	background-color: #101010;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+.header {
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	width: 100vw;
-	height: 100vh;
+	height: 130px;
+	background-color: #2b3954;
 	margin: 0;
 	padding: 0;
 }
-.frame {
-	width: 77.5%;
-	height: 99%;
-	margin: 0;
-	padding: 0;
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: #426199;
+	border-radius: 10px;
+}
+.year1 {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #1a2233;
+	margin: 1.25%;
+	border-radius: 10px;
+}
+.logo-img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 10px;
+	top: 10px;
+	border-radius: 50%;
+	border: lightgray 2px solid;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+h1 {
+	height: fit-content;
+	font-size: 65px;
+	margin: auto;
+	text-align: center;
+}
+h2 {
+	text-align: center;
 }
